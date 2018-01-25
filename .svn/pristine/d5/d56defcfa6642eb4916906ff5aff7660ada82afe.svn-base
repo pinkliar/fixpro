@@ -1,0 +1,28 @@
+<div class="pro-content pro-page22-1">
+    <dl class="pro-place pro-page22-1-place1">
+        <dt><a href="#" class="pro-link"></a></dt>
+        <dd class="pro-info">
+            <i class="pro-arrow-up"></i>
+            <ul class="pro-info-box">
+                <li><span class="pro-info-title">名称：</span><div class="pro-info-text">头条</div></li>
+                <li><span class="pro-info-title">尺寸：</span><div class="pro-info-text">900*500px，标题&lt;20个字，内容需要通过育儿网审核</div></li>
+                <li><span class="pro-info-title">规格：</span><div class="pro-info-text">jpg,png,gif&lt;2M</div></li>
+                <li><span class="pro-info-title">价格：</span><div class="pro-info-text">250000元/条</div></li>
+                <li><span class="pro-info-title">类别：</span><div class="pro-info-text">A类</div></li>
+            </ul>
+        </dd>
+    </dl>
+    <dl class="pro-place pro-page22-1-place2">
+        <dt><a href="#" class="pro-link"></a></dt>
+        <dd class="pro-info">
+            <i class="pro-arrow-up"></i>
+            <ul class="pro-info-box">
+                <li><span class="pro-info-title">名称：</span><div class="pro-info-text">非头条</div></li>
+                <li><span class="pro-info-title">尺寸：</span><div class="pro-info-text">200*200px，标题&lt;20个字，内容需要通过育儿网审核</div></li>
+                <li><span class="pro-info-title">规格：</span><div class="pro-info-text">jpg,png,gif&lt;2M</div></li>
+                <li><span class="pro-info-title">价格：</span><div class="pro-info-text">180000元/条</div></li>
+                <li><span class="pro-info-title">类别：</span><div class="pro-info-text">A类</div></li>
+            </ul>
+        </dd>
+    </dl>
+</div>

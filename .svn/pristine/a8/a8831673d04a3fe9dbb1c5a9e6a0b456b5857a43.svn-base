@@ -1,0 +1,28 @@
+<div class="pro-content pro-page2-2">
+    <dl class="pro-place pro-page2-2-place1">
+        <dt><a href="#" class="pro-link"></a></dt>
+        <dd class="pro-info">
+            <i class="pro-arrow-up"></i>
+            <ul class="pro-info-box">
+                <li><span class="pro-info-title">名称：</span><div class="pro-info-text">总置顶帖(各版块)(27个板块)</div></li>
+                <li><span class="pro-info-title">形式：</span><div class="pro-info-text">文字链接</div></li>
+                <li><span class="pro-info-title">规格：</span><div class="pro-info-text">标题少于20字，内容字数不限</div></li>
+                <li><span class="pro-info-title">价格：</span><div class="pro-info-text">130000/周<br>26000/天</div></li>
+                <li><span class="pro-info-title">类别：</span><div class="pro-info-text">A类</div></li>
+            </ul>
+        </dd>
+    </dl>
+    <dl class="pro-place pro-page2-2-place2">
+        <dt><a href="#" class="pro-link"></a></dt>
+        <dd class="pro-info">
+            <i class="pro-arrow-up"></i>
+            <ul class="pro-info-box">
+                <li><span class="pro-info-title">名称：</span><div class="pro-info-text">单个板块置顶帖</div></li>
+                <li><span class="pro-info-title">形式：</span><div class="pro-info-text">文字链接</div></li>
+                <li><span class="pro-info-title">规格：</span><div class="pro-info-text">标题少于20字，内容字数不限</div></li>
+                <li><span class="pro-info-title">价格：</span><div class="pro-info-text">12500/周<br>2500/天</div></li>
+                <li><span class="pro-info-title">类别：</span><div class="pro-info-text">A类</div></li>
+            </ul>
+        </dd>
+    </dl>
+</div>

@@ -1,0 +1,31 @@
+<div class="pro-content pro-page19-1">
+    <dl class="pro-place pro-page19-1-place1">
+        <dt><a href="#" class="pro-link"></a></dt>
+        <dd class="pro-info info-w">
+            <i class="pro-arrow-up"></i>
+            <ul class="pro-info-box">
+                <li><span class="pro-info-title">名称：</span><div class="pro-info-text">首页轮播图</div></li>
+                <li><span class="pro-info-title">尺寸：</span><div class="pro-info-text">750*234</div></li>
+                <li><span class="pro-info-title">形式：</span><div class="pro-info-text">轮播Banner/轮播（定向城市）/轮播（定向年龄）</div></li>
+                <li><span class="pro-info-title">规格：</span><div class="pro-info-text">png&lt;300K</div></li>
+                <li><span class="pro-info-title">价格：</span><div class="pro-info-text">轮播banner:150000元/天， 750000元/周<br />定向城市（年龄）：50000元/天，250000元/周</div></li>
+                <li><span class="pro-info-title">类别：</span><div class="pro-info-text">A类</div></li>
+                <li><span class="pro-info-title">备注：</span><div class="pro-info-text">定向城市：超过5个城市以上（不包括5个），每增加一个城市加2000刊例价。<br />定向年龄：限制定向一个年龄段</div></li>
+            </ul>
+        </dd>
+    </dl>
+    <dl class="pro-place pro-page19-1-place2">
+        <dt><a href="#" class="pro-link"></a></dt>
+        <dd class="pro-info">
+            <i class="pro-arrow-up"></i>
+            <ul class="pro-info-box">
+                <li><span class="pro-info-title">名称：</span><div class="pro-info-text">首页</div></li>
+                <li><span class="pro-info-title">尺寸：</span><div class="pro-info-text">690x168，标题&lt;18个字</div></li>
+                <li><span class="pro-info-title">形式：</span><div class="pro-info-text">三屏推荐横幅</div></li>
+                <li><span class="pro-info-title">规格：</span><div class="pro-info-text">png&lt;300k</div></li>
+                <li><span class="pro-info-title">价格：</span><div class="pro-info-text">80000元/天<br />400000元/周</div></li>
+                <li><span class="pro-info-title">类别：</span><div class="pro-info-text">A类</div></li>
+            </ul>
+        </dd>	
+    </dl>
+</div>

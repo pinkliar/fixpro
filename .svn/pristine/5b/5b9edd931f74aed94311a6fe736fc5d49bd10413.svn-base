@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>广告形式-育儿网</title>
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="keyword" content="">
+<meta name="description" content="">
+<link rel="stylesheet" href="css/style1.css">
+<script src="http://file2.ci123.com/ast/js/jquery_172.js"></script>
+<script type="text/javascript">
+$(function(){
+    $('#proContent').ajaxComplete(function(){
+        proPlace();
+    });
+    $('#subnavBox a').click(function(){
+        var thiscity = $(this).attr("href");
+        $('#proContent').load(thiscity);
+        return false;
+    });
+    $('#subnavBox a').eq(0).trigger("click");
+})
+</script>
+</head>
+
+<body style="overflow: visible;">
+<!--页眉-->
+<div class="advantage-header">
+    <div class="header-box">
+            <a href="http://www.ci123.com/" target="_blank" class="header-logo"></a>
+            <ul class="header-list">
+                <li>
+                    <span class="header-link">关于我们</span>
+                    <div class="header-subnav" style="display:none;">
+                        <a href="http://www.ci123.com/about_ci123.html" target="_blank" class="header-sublink">关于育儿网</a>
+                        <a href="http://www.ci123.com/intro.html" target="_blank" class="header-sublink">机构简介</a>
+                        <a href="http://www.ci123.com/sitemap.html" target="_blank" class="header-sublink">网站地图</a>
+                        <a href="http://www.ci123.com/2008/ad/event.php" target="_blank" class="header-sublink">育儿网大事件</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://www.ci123.com/ir/" target="_blank" class="header-link">投资者关系</a>
+                    <div class="header-subnav" style="display:none;">
+                        <a href="http://www.ci123.com/ir/ir-announcement.html" target="_blank" class="header-sublink">公告及通函</a>
+                        <a href="http://www.ci123.com/ir/ir-reportsfinancial.html" target="_blank" class="header-sublink">财务报告</a>
+                        <a href="http://www.ci123.com/ir/ir-prospectus.html" target="_blank" class="header-sublink">招股书</a>
+                        <a href="http://www.ci123.com/ir/ir-govhighlights.html" target="_blank" class="header-sublink">企业管制</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="header-link header-case">商务合作</span>
+                    <div class="header-subnav" style="display:none;">
+                        <a href="http://www.ci123.com/friendlink.html" target="_blank" class="header-sublink">友情链接</a>
+                        <a href="http://www.ci123.com/pro/" target="_self" class="header-sublink">广告投放</a>
+                        <a href="http://www.ci123.com/pro/index.html#5" target="_self" class="header-sublink">合作客户</a>
+                        <a href="http://www.ci123.com/pro/ci123-channel.html" target="_self" class="header-sublink">优势频道</a>
+                        <a href="http://www.ci123.com/pro/ci123-pro.html" target="_self" class="header-sublink">广告形式</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="header-link">联系我们</span>
+                    <div class="header-subnav" style="display:none;">
+                        <a href="http://www.ci123.com/contact.html" target="_blank" class="header-sublink">联系方式</a>
+                        <a href="http://tool.ci123.com/" target="_blank" class="header-sublink">意见反馈</a>
+                        <a href="http://www.ci123.com/hr.html" target="_blank" class="header-sublink">诚聘英才</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+</div>
+<!--页眉end-->
+<!--广告形式页面-->
+<div class="ci123-pro clearfix">
+    <div class="ci123-pro-box">
+        <!--左侧导航-->
+        <div class="pro-subnav">
+            <div class="subnav-bg"></div>
+            <div class="subnav-box" id="subnavBox">
+                <a href="subpage/pro-page1-1.html" class="subnav-home"><i class="icon-home"></i>育儿网首页</a>
+                <dl class="subnav-list">
+                    <dt class="subnav-title"><i class="pro-icon pro-icon1"></i>育儿论坛<i class="pro-arrow-down"></i></dt>
+                    <dd class="subnav-subtitle">
+                        <ul class="subnav-sublist">
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page2-1.html" class="subnav-text">论坛首页</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page2-2.html" class="subnav-text">论坛列表页</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page2-3.html" class="subnav-text">论坛内页</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="subnav-list">
+                    <dt class="subnav-title"><i class="pro-icon pro-icon2"></i>育儿问答<i class="pro-arrow-down"></i></dt>
+                    <dd class="subnav-subtitle">
+                        <ul class="subnav-sublist">
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page3-1.html" class="subnav-text">问答首页</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page3-2.html" class="subnav-text">问答内页</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="subnav-list">
+                    <dt class="subnav-title"><i class="pro-icon pro-icon3"></i>育儿宝典<i class="pro-arrow-down"></i></dt>
+                    <dd class="subnav-subtitle">
+                        <ul class="subnav-sublist">
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page4-1.html" class="subnav-text">宝典首页</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page4-2.html" class="subnav-text">宝典内页</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page4-3.html" class="subnav-text">专题</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page4-4.html" class="subnav-text">早教课程</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="subnav-list">
+                    <dt class="subnav-title"><i class="pro-icon pro-icon4"></i>父母学堂<i class="pro-arrow-down"></i></dt>
+                    <dd class="subnav-subtitle">
+                        <ul class="subnav-sublist">
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page5-1.html" class="subnav-text">父母学堂首页</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page5-2.html" class="subnav-text">父母学堂内页</a></li>
+                        </ul> 
+                    </dd>
+                </dl>
+                <dl class="subnav-list">
+                    <dt class="subnav-title"><i class="pro-icon pro-icon5"></i>育儿博客<i class="pro-arrow-down"></i></dt>
+                    <dd class="subnav-subtitle">
+                        <ul class="subnav-sublist">
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page6-1.html" class="subnav-text">博客首页</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page6-2.html" class="subnav-text">博客内页</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page6-3.html" class="subnav-text">博客计划</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page6-4.html" class="subnav-text">博客时间轴</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page6-5.html" class="subnav-text">博客列表</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page6-6.html" class="subnav-text">博客之星</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page6-7.html" class="subnav-text">育儿视频</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page6-8.html" class="subnav-text">博客分类</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="subnav-list">
+                    <dt class="subnav-title"><i class="pro-icon pro-icon6"></i>宝宝主页<i class="pro-arrow-down"></i></dt>
+                    <dd class="subnav-subtitle">
+                        <ul class="subnav-sublist">
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page7-1.html" class="subnav-text">宝宝首页</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page7-2.html" class="subnav-text">宝宝内页</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page7-3.html" class="subnav-text">宝宝秀场</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page7-4.html" class="subnav-text">宝宝之星分类页</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page7-5.html" class="subnav-text">宝宝视频分类页</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="subnav-list">
+                    <dt class="subnav-title"><i class="pro-icon pro-icon7"></i>育儿圈圈<i class="pro-arrow-down"></i></dt>
+                    <dd class="subnav-subtitle">
+                        <ul class="subnav-sublist">
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page8-1.html" class="subnav-text">圈圈首页</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page8-2.html" class="subnav-text">圈圈内页</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page8-3.html" class="subnav-text">圈圈列表</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="subnav-list">
+                    <dt class="subnav-title"><i class="pro-icon pro-icon8"></i>亲子资源<i class="pro-arrow-down"></i></dt>
+                    <dd class="subnav-subtitle">
+                        <ul class="subnav-sublist">
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page9-1.html" class="subnav-text">亲子首页</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page9-2.html" class="subnav-text">下载页面</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page9-3.html" class="subnav-text">孕育视频</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page9-4.html" class="subnav-text">小游戏</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page9-5.html" class="subnav-text">卡通动漫</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page9-6.html" class="subnav-text">启蒙教育分类页</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page9-7.html" class="subnav-text">育儿工具</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page9-8.html" class="subnav-text">手机应用</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page9-9.html" class="subnav-text">育儿视频</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="subnav-list">
+                    <dt class="subnav-title"><i class="pro-icon pro-icon9"></i>母婴产品<i class="pro-arrow-down"></i></dt>
+                    <dd class="subnav-subtitle">
+                        <ul class="subnav-sublist">
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page10-1.html" class="subnav-text">母婴产品首页</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="subnav-list">
+                    <dt class="subnav-title"><i class="pro-icon pro-icon10"></i>育儿资讯<i class="pro-arrow-down"></i></dt>
+                    <dd class="subnav-subtitle">
+                        <ul class="subnav-sublist">
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page11-1.html" class="subnav-text">资讯首页</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="subnav-list">
+                    <dt class="subnav-title"><i class="pro-icon pro-icon12"></i>育儿应用<i class="pro-arrow-down"></i></dt>
+                    <dd class="subnav-subtitle">
+                        <ul class="subnav-sublist">
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page13-1.html" class="subnav-text">许愿树</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page13-2.html" class="subnav-text">小脚印</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page13-3.html" class="subnav-text">育儿搜索</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page13-4.html" class="subnav-text">用户中心</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page13-5.html" class="subnav-text">EDM</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page13-6.html" class="subnav-text">站内信</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="subnav-list">
+                    <dt class="subnav-title"><i class="pro-icon pro-icon13"></i>幼儿园<i class="pro-arrow-down"></i></dt>
+                    <dd class="subnav-subtitle">
+                        <ul class="subnav-sublist">
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page14-1.html" class="subnav-text">幼儿园首页</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page14-2.html" class="subnav-text">幼儿园内页</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="subnav-list">
+                    <dt class="subnav-title"><i class="pro-icon pro-icon14"></i>试用频道<i class="pro-arrow-down"></i></dt>
+                    <dd class="subnav-subtitle">
+                        <ul class="subnav-sublist">
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page15-1.html" class="subnav-text">试用频道</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page15-2.html" class="subnav-text">品牌试用</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="subnav-list">
+                    <dt class="subnav-title"><i class="pro-icon pro-icon15"></i>育儿杂志<i class="pro-arrow-down"></i></dt>
+                    <dd class="subnav-subtitle">
+                        <ul class="subnav-sublist">
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page16-1.html" class="subnav-text">育儿杂志</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="subnav-list">
+                    <dt class="subnav-title"><i class="pro-icon pro-icon16"></i>孕妇频道<i class="pro-arrow-down"></i></dt>
+                    <dd class="subnav-subtitle">
+                        <ul class="subnav-sublist">
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page17-1.html" class="subnav-text">孕妇频道</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="subnav-list">
+                    <dt class="subnav-title"><i class="pro-icon pro-icon17"></i>城市站<i class="pro-arrow-down"></i></dt>
+                    <dd class="subnav-subtitle">
+                        <div class="pro-city">南京、北京<br>广州、上海</div>
+                        <ul class="subnav-sublist">
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page18-1.html" class="subnav-text">城市站首页</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page18-2.html" class="subnav-text">城市站论坛首页</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page18-3.html" class="subnav-text">城市站论坛内页</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page18-4.html" class="subnav-text">开宝箱</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page18-5.html" class="subnav-text">城市站百事通</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page18-6.html" class="subnav-text">商业街</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page18-7.html" class="subnav-text">活动中心</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page18-8.html" class="subnav-text">城市伙伴</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="subnav-list">
+                    <dt class="subnav-title"><i class="pro-icon pro-icon18"></i>育儿网APP<i class="pro-arrow-down"></i></dt>
+                    <dd class="subnav-subtitle">
+                        <ul class="subnav-sublist">
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page21-1.html" class="subnav-text">APP首页</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page21-2.html" class="subnav-text">APP活动页</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+				<dl class="subnav-list">
+                    <dt class="subnav-title"><i class="pro-icon pro-icon11"></i>妈妈社区<i class="pro-arrow-down"></i></dt>
+                    <dd class="subnav-subtitle">
+                        <ul class="subnav-sublist">
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page19-7.html" class="subnav-text">开机画面</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page19-1.html" class="subnav-text">妈妈社区首页</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page19-4.html" class="subnav-text">圈子总置顶</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page19-5.html" class="subnav-text">单个圈置顶帖</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page19-6.html" class="subnav-text">城市圈</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page19-3.html" class="subnav-text">活动中心页</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page19-2.html" class="subnav-text">今日知识</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page19-8.html" class="subnav-text">推送</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="subnav-list">
+                    <dt class="subnav-title"><i class="pro-icon pro-icon19"></i>孕期提醒<i class="pro-arrow-down"></i></dt>
+                    <dd class="subnav-subtitle">
+                        <ul class="subnav-sublist">
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page20-1.html" class="subnav-text">开机画面</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page20-6.html" class="subnav-text">提醒页</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page20-5.html" class="subnav-text">孕妈帮热门页</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page20-4.html" class="subnav-text">孕妈帮附近页</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page20-3.html" class="subnav-text">孕妈帮提醒页</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page20-2.html" class="subnav-text">必备产品入口</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page20-7.html" class="subnav-text">商品详情页</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="subnav-list">
+                    <dt class="subnav-title"><i class="pro-icon pro-icon20"></i>微信号<i class="pro-arrow-down"></i></dt>
+                    <dd class="subnav-subtitle">
+                        <ul class="subnav-sublist">
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page22-1.html" class="subnav-text">育儿网</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page22-2.html" class="subnav-text">向辣妈进军</a></li>
+                            <li><i class="icon-circular"></i><a href="subpage/pro-page22-3.html" class="subnav-text">女人小秘密</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <!--左侧导航end-->
+        <!--右侧内容-->
+        <div class="pro-download" style="margin:15px 0;">
+            <span>更新时间：2017年2月17日</span>
+<!--            <a href="http://www.ci123.com/ad/info/2016B2.xlsx" class="pro-btn">报价单下载<i class="pro-arrow-white"></i></a>-->
+        </div>
+        <div class="pro-main" id="proContent">          
+        </div>
+        <!--右侧内容end-->
+    </div>
+</div>
+<!--广告形式页面end-->
+<!--底部版权-->
+<div class="channel-footer clearfix">
+    <div class="footer">
+        <ul>
+            <li><a href="http://www.ci123.com/about_ci123.html" rel="nofollow" target="_blank">About Ci123</a> - </li>
+            <li><a href="http://www.ci123.com/intro.html" rel="nofollow" target="_blank">机构简介</a> - </li>
+            <li><a href="http://www.ci123.com/contact.html" rel="nofollow" target="_blank">联系方法</a> - </li>
+            <li><a href="http://www.ci123.com/hr.html" rel="nofollow" target="_blank">招聘信息</a> - </li>
+            <li><a href="http://www.ci123.com/terms.html" rel="nofollow" target="_blank">服务条款</a> - </li>
+            <li><a href="http://www.ci123.com/privacy.html" rel="nofollow" target="_blank">隐私保护</a> - </li>
+            <li><a href="http://user.ci123.com/register.php" rel="nofollow" target="_blank">会员注册</a> - </li>
+            <li><a href="http://help.ci123.com/" rel="nofollow" target="_blank">网站帮助</a> - </li>
+            <li><a href="http://www.ci123.com/sitemap.html" target="_blank">站点地图</a> - </li>
+            <li><a href="http://www.ci123.com/friendlink.html" target="_blank">友情链接</a> - </li>
+            <li><a href="http://www.ci123.com/2008/ad/" target="_blank">广告服务</a></li>
+        </ul>
+        <span><a href="http://www.miibeian.gov.cn/" title="苏ICP证B2-20100190">苏ICP证B2-20100190</a> <a href="http://www.miibeian.gov.cn/" title="苏ICP备09013109号">苏ICP备09013109号</a>  版权所有 ©2005-2017 <a href="http://www.ci123.com/" target="_blank">育儿网</a></span>
+    </div>
+</div>
+<!--底部版权end-->
+</body>
+<script type="text/javascript">
+function proPlace() {
+	$('.pro-place').each(function () {
+		var distance = 10;
+		var time = 250;
+		var hideDelay = 500;
+
+		var hideDelayTimer = null;
+
+		var beingShown = false;
+		var shown = false;
+		var trigger = $('.pro-link', this);
+		var info = $('.pro-info', this).css('opacity', 0);
+
+		$([trigger.get(0), info.get(0)]).click(function () {
+			if (hideDelayTimer) clearTimeout(hideDelayTimer);
+			if (beingShown || shown) {
+				// don't trigger the animation again
+				return;
+			} else {
+				// reset position of info box
+				beingShown = true;
+                
+				info.css({
+                    marginTop: '-=' + distance + 'px',
+					display: 'block'
+				}).animate({
+                    marginTop: 0,
+					opacity: 1
+				}, time, 'swing', function() {
+					beingShown = false;
+					shown = true;
+				});
+			}
+
+			return false;
+		});
+
+		$([trigger.get(0), info.get(0)]).mouseover(function () {
+			if (hideDelayTimer) clearTimeout(hideDelayTimer);
+			if (beingShown || shown) {
+				// don't trigger the animation again
+				return;
+			} else {
+				// reset position of info box
+				beingShown = true;
+                
+				info.css({
+                    marginTop: '-=' + distance + 'px',
+					display: 'block'
+				}).animate({
+                    marginTop: 0,
+					opacity: 1
+				}, time, 'swing', function() {
+					beingShown = false;
+					shown = true;
+				});
+			}
+
+			return false;
+		}).mouseout(function () {
+			if (hideDelayTimer) clearTimeout(hideDelayTimer);
+			hideDelayTimer = setTimeout(function () {
+				hideDelayTimer = null;
+				info.animate({
+					marginTop: '-=' + distance + 'px',
+					opacity: 0
+				}, time, 'swing', function () {
+					shown = false;
+					info.css('display', 'none');
+				});
+
+			}, hideDelay);
+
+			return false;
+		});
+	});
+}
+</script>
+<script type="text/javascript">
+$(function(){
+	$(".subnav-list .subnav-subtitle").hide();
+	$(".subnav-list .subnav-title").click(function(){
+		$(this).parent().find('.subnav-subtitle').removeClass("subtitle-case");
+		$(".subnav-title .pro-arrow-down").css("display","none");
+		$(this).find('.pro-arrow-down').css("display","block");
+		$(".subtitle-case").slideUp(); 
+		$(this).parent().find('.subnav-subtitle').slideToggle();
+		$(this).parent().find('.subnav-subtitle').addClass("subtitle-case");
+	});
+    $(".subnav-text").click(function(){
+        $(this).parent().addClass("sublist-case").siblings().removeClass('sublist-case');
+    });
+})
+</script>
+<!--页眉下拉菜单js-->
+<script> 
+$(function(){
+    $(".header-list li").mouseenter(function(){
+        $(this).find(".header-subnav").slideDown();
+    });
+    $(".header-list li").mouseleave(function(){
+        $(this).find(".header-subnav").slideUp();
+    });
+})
+</script>
+</html>

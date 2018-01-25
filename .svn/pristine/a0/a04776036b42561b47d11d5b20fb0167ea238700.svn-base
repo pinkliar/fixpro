@@ -1,0 +1,16 @@
+<div class="pro-content pro-page21-1">
+    <dl class="pro-place pro-page21-1-place1">
+        <dt><a href="#" class="pro-link"></a></dt>
+        <dd class="pro-info">
+            <i class="pro-arrow-up"></i>
+            <ul class="pro-info-box">
+                <li><span class="pro-info-title">名称：</span><div class="pro-info-text">首页</div></li>
+                <li><span class="pro-info-title">尺寸：</span><div class="pro-info-text">安卓&nbsp;&nbsp;600*120<br />ios&nbsp;&nbsp;750*240</div></li>
+                <li><span class="pro-info-title">形式：</span><div class="pro-info-text">轮播banner</div></li>
+                <li><span class="pro-info-title">规格：</span><div class="pro-info-text">png&lt;300k</div></li>
+                <li><span class="pro-info-title">价格：</span><div class="pro-info-text">100000元/天<br />500000元/周</div></li>
+                <li><span class="pro-info-title">类别：</span><div class="pro-info-text">A类</div></li>
+            </ul>
+        </dd>
+    </dl>
+</div>

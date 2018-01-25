@@ -1,0 +1,16 @@
+<div class="pro-content pro-page12-2">
+    <dl class="pro-place pro-page12-2-place1">
+        <dt><a href="#" class="pro-link"></a></dt>
+        <dd class="pro-info">
+            <i class="pro-arrow-up"></i>
+            <ul class="pro-info-box">
+                <li><span class="pro-info-title">名称：</span><div class="pro-info-text">首页轮播图</div></li>
+                <li><span class="pro-info-title">尺寸：</span><div class="pro-info-text">600*140和640*200</div></li>
+                <li><span class="pro-info-title">形式：</span><div class="pro-info-text">轮播Banner</div></li>
+                <li><span class="pro-info-title">规格：</span><div class="pro-info-text">png<300k</div></li>
+                <li><span class="pro-info-title">价格：</span><div class="pro-info-text">300000/周<br>60000/天</div></li>
+                <li><span class="pro-info-title">类别：</span><div class="pro-info-text">A类</div></li>
+            </ul>
+        </dd>
+    </dl>
+</div>

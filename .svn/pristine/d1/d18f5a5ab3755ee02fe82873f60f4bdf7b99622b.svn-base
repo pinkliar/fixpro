@@ -1,0 +1,58 @@
+<div class="pro-content pro-page13-2">
+    <dl class="pro-place pro-page13-2-place1">
+        <dt><a href="#" class="pro-link"></a></dt>
+        <dd class="pro-info">
+            <i class="pro-arrow-up"></i>
+            <ul class="pro-info-box">
+                <li><span class="pro-info-title">名称：</span><div class="pro-info-text">首页顶部横幅</div></li>
+                <li><span class="pro-info-title">尺寸：</span><div class="pro-info-text">930*60</div></li>
+                <li><span class="pro-info-title">形式：</span><div class="pro-info-text">横幅Banner</div></li>
+                <li><span class="pro-info-title">规格：</span><div class="pro-info-text">jpg/gif<20K</div></li>
+                <li><span class="pro-info-title">价格：</span><div class="pro-info-text">80000/个/周<br>16000/天</div></li>
+                <li><span class="pro-info-title">类别：</span><div class="pro-info-text">B类</div></li>
+            </ul>
+        </dd>
+    </dl>
+    <dl class="pro-place pro-page13-2-place2">
+        <dt><a href="#" class="pro-link"></a></dt>
+        <dd class="pro-info">
+            <i class="pro-arrow-up"></i>
+            <ul class="pro-info-box">
+                <li><span class="pro-info-title">名称：</span><div class="pro-info-text">首页一屏横幅</div></li>
+                <li><span class="pro-info-title">尺寸：</span><div class="pro-info-text">695*40</div></li>
+                <li><span class="pro-info-title">形式：</span><div class="pro-info-text">横幅Banner</div></li>
+                <li><span class="pro-info-title">规格：</span><div class="pro-info-text">jpg/gif<20k</div></li>
+                <li><span class="pro-info-title">价格：</span><div class="pro-info-text">80000/周<br>16000/天</div></li>
+                <li><span class="pro-info-title">类别：</span><div class="pro-info-text">B类</div></li>
+            </ul>
+        </dd>
+    </dl>
+    <dl class="pro-place pro-place-couplets1">
+        <dt><a href="#" class="pro-link"></a></dt>
+        <dd class="pro-info">
+            <i class="pro-arrow-up"></i>
+            <ul class="pro-info-box">
+                <li><span class="pro-info-title">名称：</span><div class="pro-info-text">首屏对联</div></li>
+                <li><span class="pro-info-title">尺寸：</span><div class="pro-info-text">80*240</div></li>
+                <li><span class="pro-info-title">形式：</span><div class="pro-info-text">对联</div></li>
+                <li><span class="pro-info-title">规格：</span><div class="pro-info-text">jpg/gif<230K</div></li>
+                <li><span class="pro-info-title">价格：</span><div class="pro-info-text">90000/周<br>18000/天</div></li>
+                <li><span class="pro-info-title">类别：</span><div class="pro-info-text">B类</div></li>
+            </ul>
+        </dd>
+    </dl>
+    <dl class="pro-place pro-place-couplets2">
+        <dt><a href="#" class="pro-link"></a></dt>
+        <dd class="pro-info">
+            <i class="pro-arrow-up"></i>
+            <ul class="pro-info-box">
+                <li><span class="pro-info-title">名称：</span><div class="pro-info-text">首屏对联</div></li>
+                <li><span class="pro-info-title">尺寸：</span><div class="pro-info-text">80*240</div></li>
+                <li><span class="pro-info-title">形式：</span><div class="pro-info-text">对联</div></li>
+                <li><span class="pro-info-title">规格：</span><div class="pro-info-text">jpg/gif<20K</div></li>
+                <li><span class="pro-info-title">价格：</span><div class="pro-info-text">90000/周<br>18000/天</div></li>
+                <li><span class="pro-info-title">类别：</span><div class="pro-info-text">B类</div></li>
+            </ul>
+        </dd>
+    </dl>
+</div>

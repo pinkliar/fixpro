@@ -1,0 +1,29 @@
+<div class="pro-content pro-page13-1">
+    <dl class="pro-place pro-page13-1-place1">
+        <dt><a href="#" class="pro-link"></a></dt>
+        <dd class="pro-info">
+            <i class="pro-arrow-up"></i>
+            <ul class="pro-info-box">
+                <li><span class="pro-info-title">名称：</span><div class="pro-info-text">所以内页特别推荐</div></li>
+                <li><span class="pro-info-title">形式：</span><div class="pro-info-text">文字连接</div></li>
+                <li><span class="pro-info-title">规格：</span><div class="pro-info-text"><10个字，含标点数字</div></li>
+                <li><span class="pro-info-title">价格：</span><div class="pro-info-text">55000/周<br>11000/天</div></li>
+                <li><span class="pro-info-title">类别：</span><div class="pro-info-text">B类</div></li>
+            </ul>
+        </dd>
+    </dl>
+    <dl class="pro-place pro-page13-1-place2">
+        <dt><a href="#" class="pro-link"></a></dt>
+        <dd class="pro-info">
+            <i class="pro-arrow-up"></i>
+            <ul class="pro-info-box">
+                <li><span class="pro-info-title">名称：</span><div class="pro-info-text">所有页内擎天柱</div></li>
+                <li><span class="pro-info-title">尺寸：</span><div class="pro-info-text">100*300</div></li>
+                <li><span class="pro-info-title">形式：</span><div class="pro-info-text">擎天柱</div></li>
+                <li><span class="pro-info-title">规格：</span><div class="pro-info-text">jpg/gi/swf<20k</div></li>
+                <li><span class="pro-info-title">价格：</span><div class="pro-info-text">130000/周<br>26000/天</div></li>
+                <li><span class="pro-info-title">类别：</span><div class="pro-info-text">B类</div></li>
+            </ul>
+        </dd>
+    </dl>
+</div>

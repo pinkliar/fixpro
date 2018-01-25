@@ -1,0 +1,16 @@
+<div class="pro-content pro-page19-4">
+	<dl class="pro-place pro-page19-4-place1">
+        <dt><a href="#" class="pro-link"></a></dt>
+        <dd class="pro-info">
+            <i class="pro-arrow-up"></i>
+            <ul class="pro-info-box">
+                <li><span class="pro-info-title">名称：</span><div class="pro-info-text">圈子</div></li>
+                <li><span class="pro-info-title">尺寸：</span><div class="pro-info-text">标题字数无限制，但置顶显示时最多显示14个字其他已省略号代替</div></li>
+                <li><span class="pro-info-title">形式：</span><div class="pro-info-text">圈子总置顶</div></li>
+                <li><span class="pro-info-title">价格：</span><div class="pro-info-text">120000元/天 </div></li>
+                <li><span class="pro-info-title">类别：</span><div class="pro-info-text">A类</div></li>
+                <li><span class="pro-info-title">备注：</span><div class="pro-info-text">一周内连续不超过2天</div></li>
+            </ul>
+        </dd>
+    </dl>
+</div>

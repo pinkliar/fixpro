@@ -1,0 +1,16 @@
+<div class="pro-content pro-page20-2">
+    <dl class="pro-place pro-page20-2-place1">
+        <dt><a href="#" class="pro-link"></a></dt>
+        <dd class="pro-info">
+            <i class="pro-arrow-up"></i>
+            <ul class="pro-info-box">
+                <li><span class="pro-info-title">名称：</span><div class="pro-info-text">必备产品入口</div></li>
+                <li><span class="pro-info-title">尺寸：</span><div class="pro-info-text">150*130（图上不带字，字需要另外给，大标题&lt;7个字和小标题&lt;8个字）</div></li>
+                <li><span class="pro-info-title">形式：</span><div class="pro-info-text">大button</div></li>
+                <li><span class="pro-info-title">规格：</span><div class="pro-info-text">png&lt;300k</div></li>
+                <li><span class="pro-info-title">价格：</span><div class="pro-info-text">50000元/天<br />250000元/周</div></li>
+                <li><span class="pro-info-title">类别：</span><div class="pro-info-text">A类</div></li>
+            </ul>
+        </dd>
+    </dl>
+</div>

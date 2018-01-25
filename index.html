@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>广告服务-育儿网</title>
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="keyword" content="">
+<meta name="description" content="">
+<link rel="stylesheet" href="css/style.css?v=20150917">
+<script src="http://file2.ci123.com/ast/js/jquery_172.js"></script>
+<script src="js/jquery.onepage-scroll.min.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.07427.js"></script>
+<script type="text/javascript">
+$(function(){
+	var $window = $(window);
+	var $wh = $window.height();
+	var $body = $('body');
+	var $main = $('.main');
+	var $responsiveFallback = false;
+
+    if(Modernizr.cssanimations){
+		$responsiveFallback = false;
+	} else {
+		$responsiveFallback = true;
+	}
+	//浏览器检测，判断浏览器高度
+	if ((screen.width <= 1366) || (screen.height <= 768)){
+		$responsiveFallback = true;
+	} else {
+		$responsiveFallback = false;
+	}
+    
+    if(screen.height < 1000){
+        $(".page-text").css('display','none');
+    }
+    else{
+        $(".page-text").css('display','block');
+    }
+
+    //onepage_scroll方法
+	$main.onepage_scroll({
+		sectionContainer: '.page',
+		responsiveFallback: $responsiveFallback
+	});
+});
+//页面加载时的 Loading 效果
+$(window).load(function(){
+	window.setTimeout(function(){
+		$('body').removeClass('loading');
+	}, 2000);
+});
+</script>
+</head>
+
+<body>
+<!--右侧圆点-->
+<ul>
+	<li><a data-index="1" href="#1" class="active"></a></li>
+    <li><a data-index="2" href="#2"></a></li>
+    <li><a data-index="3" href="#3"></a></li>
+    <li><a data-index="4" href="#4"></a></li>
+    <li><a data-index="5" href="#5"></a></li>
+</ul>
+<!--右侧圆点end-->
+<!--主体页面-->
+<div class="main">
+	<!--第一屏-->
+    <!--页眉-->
+    <div class="advantage-header">
+        <div class="header-box">
+            <a href="http://www.ci123.com/" target="_blank" class="header-logo"></a>
+            <ul class="header-list">
+                <li>
+                    <span class="header-link">关于我们</span>
+                    <div class="header-subnav" style="display:none;">
+                        <a href="http://www.ci123.com/about_ci123.html" target="_blank" class="header-sublink">关于育儿网</a>
+                        <a href="http://www.ci123.com/intro.html" target="_blank" class="header-sublink">机构简介</a>
+                        <a href="http://www.ci123.com/sitemap.html" target="_blank" class="header-sublink">网站地图</a>
+                        <a href="http://www.ci123.com/2008/ad/event.php" target="_blank" class="header-sublink">育儿网大事件</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://www.ci123.com/ir/" target="_blank" class="header-link">投资者关系</a>
+                    <div class="header-subnav" style="display:none;">
+                        <a href="http://www.ci123.com/ir/ir-announcement.html" target="_blank" class="header-sublink">公告及通函</a>
+                        <a href="http://www.ci123.com/ir/ir-reportsfinancial.html" target="_blank" class="header-sublink">财务报告</a>
+                        <a href="http://www.ci123.com/ir/ir-prospectus.html" target="_blank" class="header-sublink">招股书</a>
+                        <a href="http://www.ci123.com/ir/ir-govhighlights.html" target="_blank" class="header-sublink">企业管制</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="header-link header-case">商务合作</span>
+                    <div class="header-subnav" style="display:none;">
+                        <a href="http://www.ci123.com/friendlink.html" target="_blank" class="header-sublink">友情链接</a>
+                        <a href="http://www.ci123.com/pro/" target="_self" class="header-sublink">广告投放</a>
+                        <a href="http://www.ci123.com/pro/index.html#5" target="_self" class="header-sublink">合作客户</a>
+                        <a href="http://www.ci123.com/pro/ci123-channel.html" target="_self" class="header-sublink">优势频道</a>
+                        <a href="http://www.ci123.com/pro/ci123-pro.html" target="_self" class="header-sublink">广告形式</a>
+                    </div>
+                </li>
+                <li>
+                    <span class="header-link">联系我们</span>
+                    <div class="header-subnav" style="display:none;">
+                        <a href="http://www.ci123.com/contact.html" target="_blank" class="header-sublink">联系方式</a>
+                        <a href="http://tool.ci123.com/" target="_blank" class="header-sublink">意见反馈</a>
+                        <a href="http://www.ci123.com/hr.html" target="_blank" class="header-sublink">诚聘英才</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--页眉end-->
+	<div class="page page1 active" data-index="1">
+        <div class="adv-theme">
+            <div class="theme-main"></div>
+            <div class="theme-line"></div>
+            <div class="theme-text theme-subtext1"></div>
+            <div class="theme-text theme-subtext2"></div>
+        </div>
+    </div>
+    <!--第一屏end-->
+    <!--第二屏-->
+    <div class="page page2" data-index="2">
+        <div class="adv-crowd">
+            <div class="page-content">
+                <div class="page-title">妈妈人群上网行为分析</div>
+                <div class="page-text">仅仅一年，90后妈妈从19.30%增长到<span class="crowd-text-em">30.79%</span>，她们有钱任性，爱宝宝，爱自己，爱朋友；<br>她们舍得花钱，只为给孩子最好的；她们爱分享爱交流也信赖口碑；她们对四屏的依赖程度<br>是普通女性的3倍以上，手机和电脑，是她们最主要信息获取渠道！</div>
+            </div>
+            <div class="crowd-box">
+                <div class="crowd-bgimg">
+                    <!--图标区域-->
+                    <div class="crowd-tablet">
+                        <div class="crowd-circular circular-tablet">
+                            <div class="crowd-info info-tablet"><span class="tablet-text">平板</span><div class="tablet-num"><span>12</span>%</div></div>
+                            <div class="crowd-icon icon-tablet"></div>
+                        </div>
+                    </div>
+                    <!--图标区域end-->
+                    <!--图标区域-->
+                    <div class="crowd-tv">
+                        <div class="crowd-circular circular-tv">
+                            <div class="crowd-info info-tv"><span class="tablet-text">电视</span><div class="tv-num"><span>17</span>%</div></div>
+                            <div class="crowd-icon icon-tv"></div>
+                        </div>
+                    </div>
+                    <!--图标区域end-->
+                    <!--图标区域-->
+                    <div class="crowd-pc">
+                        <div class="crowd-circular circular-pc">
+                            <div class="crowd-info info-pc"><span class="tablet-text">电脑</span><div class="pc-num"><span>29</span>%</div></div>
+                            <div class="crowd-icon icon-pc"></div>
+                        </div>
+                    </div>
+                    <!--图标区域end-->
+                    <!--图标区域-->
+                    <div class="crowd-mobile">
+                        <div class="crowd-circular circular-mobile">
+                            <div class="crowd-info info-mobile"><span class="tablet-text">手机</span><div class="mobile-num"><span>30</span>%</div></div>
+                            <div class="crowd-icon icon-mobile"></div>
+                        </div>
+                    </div>
+                    <!--图标区域end-->
+                </div>
+                <div class="crowd-bgcolor"></div>
+            </div>
+        </div>
+    </div>
+    <!--第二屏end-->
+    <!--第三屏-->
+    <div class="page page3" data-index="3">
+        <div class="adv-platform">
+            <div class="page-content">
+                <div class="page-title">她们在哪儿，我们就在哪儿</div>
+                <div class="page-text">九年专注母婴，育儿网关注并了解妈妈人群的最新潮流和最核心需求，全面布局，打造最具影响力的<br>孕婴童网络平台，只为给妈妈最好的育儿生活！</div>
+            </div>
+            <div class="platform-box">
+                <div class="platform-bgimg">
+                    <!--图标区域-->
+                    <div class="platform-btn platform-btn-pc">
+                        <div class="platform-content platform-content-pc">
+                            <div class="platform-icon-pc"></div>
+                            <div class="platform-title">PC</div>
+                            <div class="platform-text">最专业的母婴<br>垂直网站</div>
+                        </div>
+                    </div>
+                    <!--图标区域end-->
+                    <!--图标区域-->
+                    <div class="platform-btn platform-btn-social">
+                        <div class="platform-content platform-content-social">
+                            <div class="platform-icon-social"></div>
+                            <div class="platform-title">Social</div>
+                            <div class="platform-text">Social影响力第一</div>
+                        </div>
+                    </div>
+                    <!--图标区域end-->
+                    <!--图标区域-->
+                    <div class="platform-btn platform-btn-app">
+                        <div class="platform-content platform-content-app">
+                            <div class="platform-icon-app"></div>
+                            <div class="platform-title">APP</div>
+                            <div class="platform-text">最活跃的母婴apps</div>
+                        </div>
+                    </div>
+                    <!--图标区域end-->
+                    <!--图标区域-->
+                    <div class="platform-btn platform-btn-home">
+                        <div class="platform-content platform-content-home">
+                            <div class="platform-icon-home"></div>
+                            <div class="platform-title">家庭教育娱乐</div>
+                            <div class="platform-text">线上线下教育版图</div>
+                        </div>
+                    </div>
+                    <!--图标区域end-->
+                    <!--小图标区域-->
+                    <div class="platform-btn platform-btn-ci123">
+                        <div class="platform-content platform-content-ci123">
+                            <div class="platform-subtitle-ci123">育儿网</div>
+                            <div class="platform-subtext">www.ci123.com</div>
+                        </div>
+                    </div>
+                    <!--小图标区域end-->
+                    <!--小图标区域-->
+                    <div class="platform-btn platform-btn-iptv">
+                        <div class="platform-content platform-content-iptv">
+                            <div class="platform-subtitle">IPTV</div>
+                            <div class="platform-subtext">育儿网TV版<br>宝贝猫</div>
+                        </div>
+                    </div>
+                    <!--小图标区域end-->
+                    <!--小图标区域-->
+                    <div class="platform-btn platform-btn-mobile">
+                        <div class="platform-content platform-content-mobile">
+                            <div class="platform-subtitle">手机</div>
+                            <div class="platform-subtext">妈妈社区<br>孕期提醒</div>
+                        </div>
+                    </div>
+                    <!--小图标区域end-->
+                    <!--小图标区域-->
+                    <div class="platform-btn platform-btn-wx">
+                        <div class="platform-content platform-content-wx">
+                            <div class="platform-subtitle-wx">微信/微博</div>
+                            <div class="platform-subtext">母婴第一<br>微信微博账户</div>
+                        </div>
+                    </div>
+                    <!--小图标区域end-->
+                    <!--小图标区域-->
+                    <div class="platform-btn platform-btn-baidu">
+                        <div class="platform-content platform-content-baidu">
+                            <div class="platform-subtitle-baidu">百度/360</div>
+                            <div class="platform-subtext">百度|360好搜海量<br>原创词条收录</div>
+                        </div>
+                    </div>
+                    <!--小图标区域end-->
+                    <!--小图标区域-->
+                    <div class="platform-btn platform-btn-yun">
+                        <div class="platform-content platform-content-yun">
+                            <div class="platform-subtitle-yun">宝贝云计划<br>吉姆的工场<br>巴布豆</div>
+                        </div>
+                    </div>
+                    <!--小图标区域end-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--第三屏end-->
+    <!--第四屏-->
+    <div class="page page4" data-index="4">
+        <div class="adv-market">
+            <div class="page-content">
+                <div class="page-title">创意营销，应需而变</div>
+            </div>
+            <div class="market-box">
+                <div class="market-bgimg">
+                    <!--图标区域-->
+                    <div class="market-btn market-btn-online">
+                        <div class="market-content">
+                            <div class="market-icon market-icon-online"></div>
+                            <div class="market-info">
+                                <div class="market-title">线上web</div>
+                                <div class="market-subtitle">多形式整合营销</div>
+                            </div>
+                        </div>
+                        <div class="market-hidden">
+                            <div class="market-arrow"></div>
+                            <div class="market-text">整合育儿网线上各种优质资源营销，按照品牌需求打造各种推广。包括：硬广曝光、品牌专区、个性化专题、论坛炒作、软文造势等形式。</div>
+                        </div>
+                    </div>
+                    <!--图标区域end-->
+                    <!--图标区域-->
+                    <div class="market-btn market-btn-mobile">
+                        <div class="market-content">
+                            <div class="market-icon market-icon-mobile"></div>
+                            <div class="market-info">
+                                <div class="market-title">Mobile端</div>
+                                <div class="market-subtitle">新平台创意营销</div>
+                            </div>
+                        </div>
+                        <div class="market-hidden">
+                            <div class="market-arrow"></div>
+                            <div class="market-text">育儿网利用手机app的活跃度与超强的传播力,打造无线端创意营销。亦可与pc端组成双屏营销,与线下资源结合打造O2O营销。</div>
+                        </div>
+                    </div>
+                    <!--图标区域end-->
+                    <!--图标区域-->
+                    <div class="market-btn market-btn-cross">
+                        <div class="market-content">
+                            <div class="market-icon market-icon-cross"></div>
+                            <div class="market-info">
+                                <div class="market-title">跨平台</div>
+                                <div class="market-subtitle">多平台影响力营销</div>
+                            </div>
+                        </div>
+                        <div class="market-hidden">
+                            <div class="market-arrow"></div>
+                            <div class="market-text">利用育儿网在多平台上的产品和影响力推广营销,最大化的增加品牌的影响力。</div>
+                        </div>
+                    </div>
+                    <!--图标区域end-->
+                    <!--图标区域-->
+                    <div class="market-btn market-btn-offline">
+                        <div class="market-content">
+                            <div class="market-icon market-icon-offline"></div>
+                            <div class="market-info">
+                                <div class="market-title">线下</div>
+                                <div class="market-subtitle">线上落地线下营销</div>
+                            </div>
+                        </div>
+                        <div class="market-hidden">
+                            <div class="market-arrow"></div>
+                            <div class="market-text">育儿网拥有丰富的线下资源(专业线下教育机构的支持、56个城市站),能够将线上活动落地到线下,打造品牌丰富的线下活动。</div>
+                        </div>
+                    </div>
+                    <!--图标区域end-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--第四屏end-->
+    <!--第五屏-->
+    <div class="page page5" data-index="5">
+        <div class="adv-brand">
+            <div class="page-content">
+                <div class="page-title">他们都在育儿网</div>
+            </div>
+            <div class="brand-box">
+                <a href="javascript:void();" class="brand-arrow brand-arrow1"></a>
+                <a href="javascript:void();" class="brand-arrow brand-arrow2"></a>
+                <div class="brand-content">
+                    <ul class="brand-list">
+                        <li>
+                            <!--12个一组-->
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo1.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo2.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo3.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo4.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo5.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo6.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo7.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo8.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo60.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo10.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo11.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo12.png" width="200" height="113"></a>
+                        </li>
+                        <li>
+                            <!--12个一组-->
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo13.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo14.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo15.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo16.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo17.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo18.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo19.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo20.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo21.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo22.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo23.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo24.png" width="200" height="113"></a>
+                        <li>
+                            <!--12个一组-->
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo25.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo26.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo27.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo28.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo29.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo30.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo31.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo32.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo33.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo34.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo35.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo36.png" width="200" height="113"></a>
+                        </li>
+                        <li>
+                            <!--12个一组-->
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo37.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo38.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo39.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo40.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo41.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo42.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo43.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo44.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo45.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo46.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo47.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo48.png" width="200" height="113"></a>
+                        </li>
+                        <li>
+                            <!--12个一组-->
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo49.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo50.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo51.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo52.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo53.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo54.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo55.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo56.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo57.png" width="200" height="113"></a>
+                            <a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo58.png" width="200" height="113"></a>
+							<a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo59.png" width="200" height="113"></a>
+							<a href="#" class="brand-logo" title="PHILIPS"><img src="image/brand-img/brand-logo9.png" width="200" height="113"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="brand-bg"></div>
+        </div>
+        <!--底部版权-->
+        <div class="advantage-footer">
+            <div class="footer">
+                <ul>
+                    <li><a href="http://www.ci123.com/about_ci123.html" rel="nofollow" target="_blank">About Ci123</a> - </li>
+                    <li><a href="http://www.ci123.com/intro.html" rel="nofollow" target="_blank">机构简介</a> - </li>
+                    <li><a href="http://www.ci123.com/contact.html" rel="nofollow" target="_blank">联系方法</a> - </li>
+                    <li><a href="http://www.ci123.com/hr.html" rel="nofollow" target="_blank">招聘信息</a> - </li>
+                    <li><a href="http://www.ci123.com/terms.html" rel="nofollow" target="_blank">服务条款</a> - </li>
+                    <li><a href="http://www.ci123.com/privacy.html" rel="nofollow" target="_blank">隐私保护</a> - </li>
+                    <li><a href="http://user.ci123.com/register.php" rel="nofollow" target="_blank">会员注册</a> - </li>
+                    <li><a href="http://help.ci123.com/" rel="nofollow" target="_blank">网站帮助</a> - </li>
+                    <li><a href="http://www.ci123.com/sitemap.html" target="_blank">站点地图</a> - </li>
+                    <li><a href="http://www.ci123.com/friendlink.html" target="_blank">友情链接</a> - </li>
+                    <li><a href="http://www.ci123.com/2008/ad/" target="_blank">广告服务</a></li>
+                </ul>
+                <span><a href="http://www.miibeian.gov.cn/" title="苏ICP证B2-20100190">苏ICP证B2-20100190</a> <a href="http://www.miibeian.gov.cn/" title="苏ICP备09013109号">苏ICP备09013109号</a>  版权所有 ©2005-<script>var now= new Date();document.write(now.getFullYear());</script> <a href="http://www.ci123.com/" target="_blank">育儿网</a></span>
+            </div>
+        </div>
+        <!--底部版权end-->
+    </div>
+    <!--第五屏end-->
+</div>
+<!--主体页面end-->
+</body>
+<script type="text/javascript">
+$(function(){
+        var index = 0 ;
+		var Swidth = 880 ;
+        var timer = null ;
+        var listWidth = $(".brand-list li").length*Swidth+"px";
+        $(".brand-list").css('width',listWidth);
+		function NextPage()
+		{	
+			if(index > $(".brand-list li").length-1)
+			{
+				index = 0 ;
+			}
+			$(".brand-list").stop(true, false).animate({left: -index*Swidth+"px"},800)		
+		}
+		function PrevPage()
+		{	
+			if(index<0)
+			{
+				index = $(".brand-list li").length-1 ;
+			}
+			$(".brand-list").stop(true, false).animate({left: -index*Swidth+"px"},800)		
+		}
+		//下一页
+		$(".brand-arrow2").click(function(){
+			 index++ ;
+			 NextPage();
+		});
+		//上一页
+		$(".brand-arrow1").click(function(){
+			 index-- ;
+			 PrevPage();
+		});
+		//自动滚动
+		timer = setInterval(function(){
+				index++ ;
+				NextPage();
+			},5000);
+		$(".brand-arrow2 , .brand-list , .brand-arrow1").mouseover(function(){
+			clearInterval(timer);
+		});
+		$(".brand-arrow2 , .brand-list , .brand-arrow1").mouseleave(function(){
+			timer = setInterval(function(){
+				index++ ;
+				NextPage();
+			},5000);	
+		});
+})
+</script>
+<!--页眉下拉菜单js-->
+<script> 
+$(function(){
+    $(".header-list li").mouseenter(function(){
+        $(this).find(".header-subnav").slideDown();
+    });
+    $(".header-list li").mouseleave(function(){
+        $(this).find(".header-subnav").slideUp();
+    });
+})
+</script>
+</html>

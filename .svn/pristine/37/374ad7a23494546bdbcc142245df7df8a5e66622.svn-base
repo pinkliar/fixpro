@@ -1,0 +1,70 @@
+<div class="pro-content pro-page5-2">
+    <dl class="pro-place pro-page5-2-place1">
+        <dt><a href="#" class="pro-link"></a></dt>
+        <dd class="pro-info">
+            <i class="pro-arrow-up"></i>
+            <ul class="pro-info-box">
+                <li><span class="pro-info-title">名称：</span><div class="pro-info-text">所有内页</div></li>
+                <li><span class="pro-info-title">尺寸：</span><div class="pro-info-text">960*60</div></li>
+                <li><span class="pro-info-title">形式：</span><div class="pro-info-text">通栏Banner</div></li>
+                <li><span class="pro-info-title">规格：</span><div class="pro-info-text">jpg/gif<20k</div></li>
+                <li><span class="pro-info-title">价格：</span><div class="pro-info-text">130000/周<br>26000/天</div></li>
+                <li><span class="pro-info-title">类别：</span><div class="pro-info-text">A类</div></li>
+            </ul>
+        </dd>
+    </dl>
+    <dl class="pro-place pro-page5-2-place2">
+        <dt><a href="#" class="pro-link"></a></dt>
+        <dd class="pro-info">
+            <i class="pro-arrow-up"></i>
+            <ul class="pro-info-box">
+                <li><span class="pro-info-title">名称：</span><div class="pro-info-text">软文</div></li>
+                <li><span class="pro-info-title">形式：</span><div class="pro-info-text">软文</div></li>
+                <li><span class="pro-info-title">规格：</span><div class="pro-info-text">标题<15字，含标点数字</div></li>
+                <li><span class="pro-info-title">价格：</span><div class="pro-info-text">1000/天</div></li>
+                <li><span class="pro-info-title">类别：</span><div class="pro-info-text">B类</div></li>
+            </ul>
+        </dd>
+    </dl>
+    <dl class="pro-place pro-page5-2-place3">
+        <dt><a href="#" class="pro-link"></a></dt>
+        <dd class="pro-info">
+            <i class="pro-arrow-up"></i>
+            <ul class="pro-info-box">
+                <li><span class="pro-info-title">名称：</span><div class="pro-info-text">所有内页</div></li>
+                <li><span class="pro-info-title">尺寸：</span><div class="pro-info-text">300*250</div></li>
+                <li><span class="pro-info-title">形式：</span><div class="pro-info-text">一屏大按钮</div></li>
+                <li><span class="pro-info-title">规格：</span><div class="pro-info-text">jpg/gif<20k</div></li>
+                <li><span class="pro-info-title">价格：</span><div class="pro-info-text">130000/周<br>26000/天</div></li>
+                <li><span class="pro-info-title">类别：</span><div class="pro-info-text">A类</div></li>
+            </ul>
+        </dd>
+    </dl>
+    <dl class="pro-place pro-page5-2-place4">
+        <dt><a href="#" class="pro-link"></a></dt>
+        <dd class="pro-info">
+            <i class="pro-arrow-up"></i>
+            <ul class="pro-info-box">
+                <li><span class="pro-info-title">名称：</span><div class="pro-info-text">所有内页特别关注</div></li>
+                <li><span class="pro-info-title">形式：</span><div class="pro-info-text">文字连接</div></li>
+                <li><span class="pro-info-title">规格：</span><div class="pro-info-text"><10个字，含标点数字</div></li>
+                <li><span class="pro-info-title">价格：</span><div class="pro-info-text">55000/周<br>11000/天</div></li>
+                <li><span class="pro-info-title">类别：</span><div class="pro-info-text">B类</div></li>
+            </ul>
+        </dd>
+    </dl>
+    <dl class="pro-place pro-page5-2-place5">
+        <dt><a href="#" class="pro-link"></a></dt>
+        <dd class="pro-info">
+            <i class="pro-arrow-up"></i>
+            <ul class="pro-info-box">
+                <li><span class="pro-info-title">名称：</span><div class="pro-info-text">所有内页</div></li>
+                <li><span class="pro-info-title">尺寸：</span><div class="pro-info-text">300*250</div></li>
+                <li><span class="pro-info-title">形式：</span><div class="pro-info-text">三屏大按钮</div></li>
+                <li><span class="pro-info-title">规格：</span><div class="pro-info-text">jpg/gif<20k</div></li>
+                <li><span class="pro-info-title">价格：</span><div class="pro-info-text">110000/个/周<br>22000/天</div></li>
+                <li><span class="pro-info-title">类别：</span><div class="pro-info-text">B类</div></li>
+            </ul>
+        </dd>
+    </dl>
+</div>

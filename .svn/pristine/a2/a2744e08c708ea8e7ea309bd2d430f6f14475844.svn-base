@@ -1,0 +1,43 @@
+<div class="pro-content pro-page18-2">
+    <dl class="pro-place pro-page18-2-place1">
+        <dt><a href="#" class="pro-link"></a></dt>
+        <dd class="pro-info">
+            <i class="pro-arrow-up"></i>
+            <ul class="pro-info-box">
+                <li><span class="pro-info-title">名称：</span><div class="pro-info-text">育儿论坛首页</div></li>
+                <li><span class="pro-info-title">尺寸：</span><div class="pro-info-text">908*70</div></li>
+                <li><span class="pro-info-title">形式：</span><div class="pro-info-text">通栏Banner</div></li>
+                <li><span class="pro-info-title">规格：</span><div class="pro-info-text">jpg/gif<20k</div></li>
+                <li><span class="pro-info-title">价格：</span><div class="pro-info-text">8000/周<br>1600/天</div></li>
+                <li><span class="pro-info-title">类别：</span><div class="pro-info-text">B类</div></li>
+            </ul>
+        </dd>
+    </dl>
+    <dl class="pro-place pro-page18-2-place2">
+        <dt><a href="#" class="pro-link"></a></dt>
+        <dd class="pro-info">
+            <i class="pro-arrow-up"></i>
+            <ul class="pro-info-box">
+                <li><span class="pro-info-title">名称：</span><div class="pro-info-text">总置顶</div></li>
+                <li><span class="pro-info-title">形式：</span><div class="pro-info-text">文字链接</div></li>
+                <li><span class="pro-info-title">规格：</span><div class="pro-info-text">标题&lt;15字，内容字数不限</div></li>
+                <li><span class="pro-info-title">价格：</span><div class="pro-info-text">3000/周<br>600/天</div></li>
+                <li><span class="pro-info-title">类别：</span><div class="pro-info-text">A类</div></li>
+            </ul>
+        </dd>
+    </dl>
+    <dl class="pro-place pro-page18-2-place3">
+        <dt><a href="#" class="pro-link"></a></dt>
+        <dd class="pro-info">
+            <i class="pro-arrow-up"></i>
+            <ul class="pro-info-box">
+                <li><span class="pro-info-title">名称：</span><div class="pro-info-text">育儿论坛按钮</div></li>
+                <li><span class="pro-info-title">尺寸：</span><div class="pro-info-text">193*145</div></li>
+                <li><span class="pro-info-title">形式：</span><div class="pro-info-text">按钮</div></li>
+                <li><span class="pro-info-title">规格：</span><div class="pro-info-text">jpg/gif<20k</div></li>
+                <li><span class="pro-info-title">价格：</span><div class="pro-info-text">3000/周<br>600/天</div></li>
+                <li><span class="pro-info-title">类别：</span><div class="pro-info-text">B类</div></li>
+            </ul>
+        </dd>
+    </dl>
+</div>

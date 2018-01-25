@@ -1,0 +1,30 @@
+<div class="pro-content pro-page9-3">
+    <dl class="pro-place pro-page9-3-place1">
+        <dt><a href="#" class="pro-link"></a></dt>
+        <dd class="pro-info">
+            <i class="pro-arrow-up"></i>
+            <ul class="pro-info-box">
+                <li><span class="pro-info-title">名称：</span><div class="pro-info-text">启蒙教育分类横幅</div></li>
+                <li><span class="pro-info-title">尺寸：</span><div class="pro-info-text">940*90</div></li>
+                <li><span class="pro-info-title">形式：</span><div class="pro-info-text">横幅Banner</div></li>
+                <li><span class="pro-info-title">规格：</span><div class="pro-info-text">jpg/gif<20k</div></li>
+                <li><span class="pro-info-title">价格：</span><div class="pro-info-text">45000/周<br>9000/天</div></li>
+                <li><span class="pro-info-title">类别：</span><div class="pro-info-text">B类</div></li>
+            </ul>
+        </dd>
+    </dl>
+    <dl class="pro-place pro-page9-3-place2">
+        <dt><a href="#" class="pro-link"></a></dt>
+        <dd class="pro-info">
+            <i class="pro-arrow-up"></i>
+            <ul class="pro-info-box">
+                <li><span class="pro-info-title">名称：</span><div class="pro-info-text">启蒙教育分类页左按钮</div></li>
+                <li><span class="pro-info-title">尺寸：</span><div class="pro-info-text">190*100</div></li>
+                <li><span class="pro-info-title">形式：</span><div class="pro-info-text">按钮Button</div></li>
+                <li><span class="pro-info-title">规格：</span><div class="pro-info-text">jpg/gif<15k</div></li>
+                <li><span class="pro-info-title">价格：</span><div class="pro-info-text">35000/周<br>7000/天</div></li>
+                <li><span class="pro-info-title">类别：</span><div class="pro-info-text">B类</div></li>
+            </ul>
+        </dd>
+    </dl>
+</div>
